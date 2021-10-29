@@ -5,6 +5,9 @@ spring:
     console:
       enabled: true
 
+server:
+  port: 9091
+
 eureka:
   client:
     fetch-registry: true
