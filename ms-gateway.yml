@@ -16,6 +16,8 @@ spring:
             allowedMethods:
             - GET
             - POST
+            - DELETE
+            - PUT
   zipkin:
     base-url: ${ZIPKIN_URI:http://localhost:9411}
 
