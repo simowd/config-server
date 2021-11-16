@@ -9,6 +9,13 @@ spring:
         locator:
           enabled: true
           lower-case-service-id: true
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods:
+            - GET
+            - POST
   zipkin:
     base-url: ${ZIPKIN_URI:http://localhost:9411}
 
