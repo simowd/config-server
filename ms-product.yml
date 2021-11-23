@@ -1,6 +1,6 @@
 spring:
   application:
-    name: ms-product
+    name: '{cipher}38ddd718129cc93adea8ca047855a14a11a9ce68b247b95a77057c8ae3aa307a'
   h2:
     console:
       enabled: true
