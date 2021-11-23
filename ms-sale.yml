@@ -1,6 +1,6 @@
 spring:
   application:
-    name: ms-sale
+    name: '{cipher}163b2bacceaf27251835274f1e1a066b6bfa0f009ff1153a2ba40f70e5fe4ba9'
   h2:
     console:
       enabled: true
