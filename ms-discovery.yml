@@ -1,6 +1,6 @@
 spring:
   application:
-    name: ms-discovery
+    name: '{cipher}f49029b9b6b53406618c8f1bc4fa6422b49eb87488d122e2648e46b4577c3dc4%'
 
 server:
   port: ${SERVER_PORT:8762}
