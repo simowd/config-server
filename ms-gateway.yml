@@ -2,7 +2,7 @@ server:
   port: ${SERVER_PORT:8181}
 spring:
   application:
-    name: '{cipher}594741ad7499193eb6175f571f92e28d7a374d2e9ecc4fe238c6029e627803c4%'
+    name: '{cipher}594741ad7499193eb6175f571f92e28d7a374d2e9ecc4fe238c6029e627803c4'
   cloud:
     gateway:
       discovery:
