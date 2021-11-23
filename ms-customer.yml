@@ -1,6 +1,6 @@
 spring:
   application:
-    name: ms-customer
+    name: '{cipher}9d584c68d0898933d651ea59188c092ffc12c64a2502bd117b4453eab0cfc31b'
   h2:
     console:
       enabled: true
