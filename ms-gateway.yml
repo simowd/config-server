@@ -11,19 +11,19 @@ spring:
           predicates:
             - Path=/ms-customer/**
           filters:
-            - RewritePath=/ms-customer/?(?<remaining>.*) = '/${remaining}'],
+            - RewritePath=/ms-customer/?(?<remaining>.*), /$\{remaining}
         - id: service_product
           uri: lb://MS-PRODUCT
           predicates:
             - Path=/ms-product/**
           filters:
-            - RewritePath=/ms-product/?(?<remaining>.*) = '/${remaining}'],
+            - RewritePath=/ms-product/?(?<remaining>.*), /$\{remaining}
         - id: service_sale
           uri: lb://MS-SALE
           predicates:
             - Path=/ms-sale/**
           filters:
-            - RewritePath=/ms-sale/?(?<remaining>.*) = '/${remaining}'],
+            - RewritePath=/ms-sale/?(?<remaining>.*), /$\{remaining}
       #discovery:
         #locator:
           #enabled: true
